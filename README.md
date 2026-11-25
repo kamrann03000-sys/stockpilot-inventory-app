@@ -3,7 +3,7 @@
 A responsive retail inventory and point-of-sale (POS) web application built with **React**, **Vite**, **HTML**, and **CSS**, designed for store operations such as **NovaMart Retail Store**.
 
 ## Live Demo
-- **Live App:** https://stockpilot-inventory-app-weld.vercel.app/dashboard
+- **Live App:** https://stockpilot-inventory-app-weld.vercel.app
 
 ## Key Features
 - **Executive Dashboard:** Real-time store operations overview with revenue, gross profit, inventory valuation, low/out-of-stock health metrics, 7-day sales revenue trends, and category valuation charts.
