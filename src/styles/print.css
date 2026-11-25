@@ -1,0 +1,75 @@
+/* Print styles for thermal and A4 receipts/reports */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+
+  .print-area, .print-area * {
+    visibility: visible;
+  }
+
+  .print-area {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10mm;
+    background: white;
+    color: black;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  /* Thermal receipt styling */
+  .receipt-thermal {
+    max-width: 80mm;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    line-height: 1.4;
+  }
+
+  .receipt-header {
+    text-align: center;
+    border-bottom: 1px dashed #000;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+  }
+
+  .receipt-store-title {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 8px 0;
+  }
+
+  .receipt-table th, .receipt-table td {
+    padding: 3px 0;
+  }
+
+  .receipt-totals {
+    border-top: 1px dashed #000;
+    padding-top: 6px;
+    margin-top: 6px;
+  }
+
+  .receipt-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .receipt-footer {
+    text-align: center;
+    border-top: 1px dashed #000;
+    padding-top: 8px;
+    margin-top: 8px;
+    font-size: 10px;
+  }
+}
